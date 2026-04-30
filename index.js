@@ -8,7 +8,7 @@ const platform = os.platform();
 const asyncExecute = promisify(exec);
 
 const History = [];
-const ai = new GoogleGenAI({ apiKey: "AIzaSyCsxVwmrKpaCqx5DNYun1iTBZVMCW3upKg" });
+const ai = new GoogleGenAI({ apiKey: "Your API KEY" });
 
 
 
